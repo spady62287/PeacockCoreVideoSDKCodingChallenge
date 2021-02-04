@@ -13,6 +13,8 @@
 		9953F67B25CC71FD00650505 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9953F67A25CC71FD00650505 /* Preview Assets.xcassets */; };
 		9953F68625CC71FD00650505 /* PeacockCoreVideoSDKCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953F68525CC71FD00650505 /* PeacockCoreVideoSDKCodingChallengeTests.swift */; };
 		9953F69125CC71FD00650505 /* PeacockCoreVideoSDKCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953F69025CC71FD00650505 /* PeacockCoreVideoSDKCodingChallengeUITests.swift */; };
+		9953F6A425CC779400650505 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953F6A325CC779400650505 /* Service.swift */; };
+		9953F6AC25CC784100650505 /* DependencyInjectionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953F6AB25CC784100650505 /* DependencyInjectionContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		9953F68C25CC71FD00650505 /* PeacockCoreVideoSDKCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeacockCoreVideoSDKCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9953F69025CC71FD00650505 /* PeacockCoreVideoSDKCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeacockCoreVideoSDKCodingChallengeUITests.swift; sourceTree = "<group>"; };
 		9953F69225CC71FD00650505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9953F6A325CC779400650505 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9953F6AB25CC784100650505 /* DependencyInjectionContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		9953F67225CC71FC00650505 /* PeacockCoreVideoSDKCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				9953F6A225CC776E00650505 /* Container */,
+				9953F6A125CC776700650505 /* Model */,
 				9953F67325CC71FC00650505 /* PeacockCoreVideoSDKCodingChallengeApp.swift */,
 				9953F67525CC71FC00650505 /* ContentView.swift */,
 				9953F67725CC71FD00650505 /* Assets.xcassets */,
@@ -128,6 +134,22 @@
 				9953F69225CC71FD00650505 /* Info.plist */,
 			);
 			path = PeacockCoreVideoSDKCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		9953F6A125CC776700650505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9953F6A325CC779400650505 /* Service.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9953F6A225CC776E00650505 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				9953F6AB25CC784100650505 /* DependencyInjectionContainer.swift */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +283,8 @@
 			files = (
 				9953F67625CC71FC00650505 /* ContentView.swift in Sources */,
 				9953F67425CC71FC00650505 /* PeacockCoreVideoSDKCodingChallengeApp.swift in Sources */,
+				9953F6AC25CC784100650505 /* DependencyInjectionContainer.swift in Sources */,
+				9953F6A425CC779400650505 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
