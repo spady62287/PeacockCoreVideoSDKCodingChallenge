@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='PeacockCoreVideoSDKCodingChallengeUITests.xctest' tests='4' failures='0'>
+  <testsuite name='PeacockCoreVideoSDKCodingChallengeTests.PeacockCoreVideoSDKCodingChallengeTests' tests='2' failures='0'>
+    <testcase classname='PeacockCoreVideoSDKCodingChallengeTests.PeacockCoreVideoSDKCodingChallengeTests' name='testExample' time='0.001'/>
+    <testcase classname='PeacockCoreVideoSDKCodingChallengeTests.PeacockCoreVideoSDKCodingChallengeTests' name='testPerformanceExample' time='0.284'/>
+  </testsuite>
+  <testsuite name='PeacockCoreVideoSDKCodingChallengeUITests.PeacockCoreVideoSDKCodingChallengeUITests' tests='2' failures='0'>
+    <testcase classname='PeacockCoreVideoSDKCodingChallengeUITests.PeacockCoreVideoSDKCodingChallengeUITests' name='testExample' time='1.537'/>
+    <testcase classname='PeacockCoreVideoSDKCodingChallengeUITests.PeacockCoreVideoSDKCodingChallengeUITests' name='testLaunchPerformance' time='14.421'/>
+  </testsuite>
+</testsuites>
