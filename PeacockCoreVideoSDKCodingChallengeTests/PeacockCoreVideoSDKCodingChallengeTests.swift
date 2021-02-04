@@ -9,25 +9,38 @@ import XCTest
 @testable import PeacockCoreVideoSDKCodingChallenge
 
 class PeacockCoreVideoSDKCodingChallengeTests: XCTestCase {
+    
+    // Given
+    var sut: DependencyInjectionContainer!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        sut = DependencyInjectionContainer()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    // Test Dependency Container Adds object to Generic Service
+    func testContainerRegister() {
+        // When
+        sut.register(type: MoonServiceProtocol.self) { _ in
+            return UniverseService()
         }
+        
+        // Then
+        XCTAssertEqual(sut.genService.count, 1)
     }
+    
+    // Test Dependency Container Resolves Generic Type
+    func testContainerResolve() {
+        // When
+        sut.register(type: MoonServiceProtocol.self) { container in
+            return SpaceService(endpoint: container.resolve(type: SunServiceProtocol.self)!)
+        }
 
+        // Then
+        XCTAssertEqual(sut.genService.count, 1)
+    }
+    
 }

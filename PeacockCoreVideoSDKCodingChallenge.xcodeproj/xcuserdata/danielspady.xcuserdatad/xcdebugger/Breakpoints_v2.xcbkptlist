@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1D0BEDC5-B1DF-4E19-AFB5-45FE107A6D55"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CBFCF9D-9D09-477A-9029-70568C25C431"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeacockCoreVideoSDKCodingChallengeTests/PeacockCoreVideoSDKCodingChallengeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "testContainerResolve()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD8B8148-A7DF-4FEE-A219-26D4DF80A3F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeacockCoreVideoSDKCodingChallengeTests/PeacockCoreVideoSDKCodingChallengeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "testContainerResolve()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD8B8148-A7DF-4FEE-A219-26D4DF80A3F5 - 977886f6f4d1d4ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeacockCoreVideoSDKCodingChallengeTests.PeacockCoreVideoSDKCodingChallengeTests.testContainerResolve() -&gt; ()"
+                  moduleName = "PeacockCoreVideoSDKCodingChallengeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/My%20Passport%20for%20Mac/Repository/PeacockCoreVideoSDKCodingChallenge/PeacockCoreVideoSDKCodingChallengeTests/PeacockCoreVideoSDKCodingChallengeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "AD8B8148-A7DF-4FEE-A219-26D4DF80A3F5 - 351a3239e035e4b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PeacockCoreVideoSDKCodingChallenge.DependencyInjectionContainer) -&gt; Swift.AnyObject in PeacockCoreVideoSDKCodingChallengeTests.PeacockCoreVideoSDKCodingChallengeTests.testContainerResolve() -&gt; ()"
+                  moduleName = "PeacockCoreVideoSDKCodingChallengeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/My%20Passport%20for%20Mac/Repository/PeacockCoreVideoSDKCodingChallenge/PeacockCoreVideoSDKCodingChallengeTests/PeacockCoreVideoSDKCodingChallengeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "949AC7A8-F40B-49C5-9D8A-3731DF4CE8EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeacockCoreVideoSDKCodingChallengeTests/PeacockCoreVideoSDKCodingChallengeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "testContainerResolve()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
